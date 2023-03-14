@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:background="@drawable/border_layout"
+
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert"
+        android:textSize="62sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/myCustommessage"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/show_message1"
+        android:backgroundTint="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginTop="170dp"
+        android:textColor="#ffffff"
+        android:onClick="btn_showMessage1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/show_message2"
+        android:backgroundTint="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginTop="270dp"
+        android:textColor="#ffffff"
+        android:onClick="btn_showMessage2" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/show_message3"
+        android:backgroundTint="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginTop="370dp"
+        android:textColor="#ffffff"
+        android:onClick="btn_showMessage3" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:layout_marginTop="480dp"
+        android:id="@+id/myCustommessage2"/>
+</RelativeLayout>

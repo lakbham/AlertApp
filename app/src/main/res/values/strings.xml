@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Upsell Alert Dialog Box</string>
+    <string name="show_message1">Show Message1</string>
+    <string name="show_message2">Show Message2</string>
+    <string name="show_message3">Show Message3</string>
+    <string name="alert"><b>Alert !</b></string>
+    <string name="yesorno"><b>yesorno</b></string>
+    <string name="BandW">"%1$d"</string>
+
+    <!--perfect ShowUpsellDialog1 box with different font sizes and color -->
+    <string name="big_red">Color prints increase attention span and recall by 82%!\nWould you like to upgrade to color?
+    </string>
+    <string name="medium_green">Color prints increase attention span and recall by 82%!Would you like to upgrade to color?
+    </string>
+    <string name="small_blue">Color prints increase attention span and recall by 82%!\nWould you like to upgrade to color?
+    </string>
+    <!--perfect ShowUpsellDialog1 box with different font sizes and color-->
+
+    <!--perfect ShowUpsellDialog3 with calculations -->
+    <string name="val11"><![CDATA[<h2>Docs printed in
+ <font color=#ff0000>C</font>
+ <font color=#183efa> O</font>
+ <font color=#66ff00> L</font>
+ <font color=#183efa> O</font>
+ <font color=#fe5000> R </font>are 90% more likely to make an impression!</h2><h5>We can upgrade your copy job to<br>
+      <b>
+ <font color=#ff0000>C</font>
+ <font color=#183efa> O</font>
+ <font color=#66ff00> L</font>
+ <font color=#183efa> O</font>
+ <font color=#fe5000> R </font></b>for an additional <b>$amt</b>.<br><br>Should we upgrade the configuration <br>and print your job in
+      <b>
+ <font color=#ff0000>C</font>
+<font color=#183efa> O</font>
+ <font color=#66ff00> L</font>
+ <font color=#183efa> O</font>
+ <font color=#fe5000> R </font></b>?</h5>]]> </string>
+    <!--perfect ShowUpsellDialog3 with calculations========================================================-->
+</resources>
